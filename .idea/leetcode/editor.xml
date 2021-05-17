@@ -3,6 +3,22 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../../congjiuwanshile/leetcode_is_a_good_habit/code_record/src/main/java /leetcode/editor/cn/DivideTwoIntegers29.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../congjiuwanshile/leetcode_is_a_good_habit/code_record/src/main/java /leetcode/editor/cn/DivideTwoIntegers29.java" />
+              <option name="questionId" value="29" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/AddTwoNumbers2.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/AddTwoNumbers2.java" />
+              <option name="questionId" value="2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/AssignCookies455.java">
           <value>
             <LeetcodeEditor>
@@ -16,6 +32,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/BestTimeToBuyAndSellStockIv188.java" />
               <option name="questionId" value="188" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/DivideTwoIntegers29.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/DivideTwoIntegers29.java" />
+              <option name="questionId" value="29" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -51,6 +75,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/TwoSum1.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/TwoSum1.java" />
+              <option name="questionId" value="1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/[455]分发饼干.java">
           <value>
             <LeetcodeEditor>
@@ -64,6 +96,38 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/assign-cookies_AssignCookies.java" />
               <option name="questionId" value="455" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/两数相加.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/两数相加.java" />
+              <option name="questionId" value="2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/二叉树的堂兄弟节点.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/二叉树的堂兄弟节点.java" />
+              <option name="questionId" value="1035" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/无重复字符的最长子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/无重复字符的最长子串.java" />
+              <option name="questionId" value="3" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/盛最多水的容器.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/code_record/src/main/java /leetcode/editor/cn/盛最多水的容器.java" />
+              <option name="questionId" value="11" />
             </LeetcodeEditor>
           </value>
         </entry>
