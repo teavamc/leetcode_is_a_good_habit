@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.old_practice;
  
 //有一堆石头，每块石头的重量都是正整数。 
 //

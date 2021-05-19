@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.old_practice;
  
 //反转一个单链表。 
 //

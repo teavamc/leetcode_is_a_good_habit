@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.old_practice;
  
 //给定两个字符串 s 和 t，判断它们是否是同构的。 
 //
