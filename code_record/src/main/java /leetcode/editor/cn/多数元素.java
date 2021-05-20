@@ -38,11 +38,39 @@ public class 多数元素{
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    // 排序法
+//    public int majorityElement(int[] nums) {
+//        // 根据题意, "多数"的数量已经超过了 n/2 了
+//        // 那直接排序,取中位数就肯定正确
+//        Arrays.sort(nums);
+//        return nums[(nums.length-1)/2];
+//    }
+
+    // BoyerMoore 法
+    // 设置一个候选人 以及它的出现次数
+    // 一开始 任何元素都可以是候选人 后续每出现 1 次 count 就+1, 出现别的 count 就-1
+    // 如果 count=0 的时候, 候选人与当前元素不相等, 那就替换候选人, count +1
+    // 这样到最后, 候选人肯定是多数的 count 是正数,因为多数占绝大多数
     public int majorityElement(int[] nums) {
-        // 根据题意, "多数"的数量已经超过了 n/2 了
-        // 那直接排序,取中位数就肯定正确
-        Arrays.sort(nums);
-        return nums[(nums.length-1)/2];
+        int candidate = 0;
+        int count = 0;
+        // 时间复杂度 ON 空间复杂度 O1
+        for (int i : nums){
+            if (count == 0){
+                candidate = i;
+                count++;
+            }else{
+                if (candidate==i && count>0){
+                    count++;
+                }else if(candidate!=i && count>0){
+                    count--;
+                }else if (candidate!=i && count==0){
+                    candidate = i;
+                    count++;
+                }
+            }
+        }
+        return candidate;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
