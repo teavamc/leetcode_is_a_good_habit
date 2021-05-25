@@ -62,15 +62,34 @@ public class 反转链表{
 class Solution {
     // 最常见的解法
     // 一个 while 解决
+//    public ListNode reverseList(ListNode head) {
+//        ListNode pre = null;
+//        while (head != null){
+//            ListNode temp = head.next;
+//            head.next = pre;
+//            pre = head;
+//            head = temp;
+//        }
+//        return pre;
+//    }
+
+    // 递归
     public ListNode reverseList(ListNode head) {
-        ListNode pre = null;
-        while (head != null){
-            ListNode temp = head.next;
-            head.next = pre;
-            pre = head;
-            head = temp;
+        if (head == null || head.next == null){
+            return head;
         }
-        return pre;
+        // 返回的是新的头节点 , 也就是原来的尾巴节点
+        ListNode newHead = reverseList(head.next);
+        // 1-2-3-4-5
+        // 1 - (2-3-4-5)
+        // 1.next = 2
+        // 2.next = null (以为在上一层已经被翻转,2 是尾巴节点,指向 null)
+        // 所以 1.next.next = null
+        // 1.next.next = head 实现了 2 -> 1
+        head.next.next = head;
+        // 1 作为尾巴 1 -> null 完成翻转
+        head.next = null;
+        return newHead;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
